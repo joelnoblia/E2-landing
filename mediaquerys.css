@@ -1,0 +1,219 @@
+
+@media (max-width: 576px) {
+    
+    header {
+        width: 118%;
+        max-width: 118%;
+
+
+    }
+    .navbar ul{
+        background: linear-gradient(rgb(222, 157, 36),rgb(141, 64, 1));
+        width: 20%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        border-radius: 5px;
+        
+    }
+    .navbar i {
+        display:block;
+        margin-top: 10px;
+    }
+    #toggle-menu:checked ~ .navbar-list {
+        display: flex;
+
+    }
+    .logo-cerritoboyz {
+        height: 20%;
+        width: 20%;
+    }
+    #hero {
+        max-width: 140%;
+        width: 140%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        max-width: 100%;
+        padding: 40px 0;
+        margin-right: 10%;
+    }
+    .hero-info h1{
+        font-size: 30px;
+
+    }
+    .hero-info p{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    #links-items {
+        flex-direction: column;
+        margin-left: 30px;
+        width: 10%;
+        height: 10%;
+    }
+    #img-size {
+        width: 300px;
+        height: 200px;
+        position: static;
+        margin-left: -20%;
+    }
+    .text-info{
+        font-size: 10px;
+    }
+    .line-separator{
+        width: 85%;
+        position: relative;
+        left: 10%;
+    }
+    #beneficios{
+        margin-top: 50px;
+        max-width: 100%;
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card-benefit{
+        width: 90%;
+        max-width: 90%;
+    }
+    .img-card{
+        width: 120px;
+        height: 120px;
+    }
+    .card-tittle{
+        font-size: 16px;
+    }
+    .benefit-info{
+        font-size:12px;
+    }
+    #contacto{
+        width: 300px;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+        position: static;
+        margin-left: 20px;
+    }
+    .contact-tittle {
+        color: black;
+    }
+    .contact-info{
+        font-weight: 500;
+    }
+    #footer-pag{
+        font-size: 10px;
+    }
+
+}
+@media (max-width: 992px) {
+    header {
+        width: 118%;
+        max-width: 118%;
+    }
+    .navbar ul{
+        background: linear-gradient(rgb(222, 157, 36),rgb(141, 64, 1));
+        width: 20%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        border-radius: 5px;
+        
+    }
+    .navbar i {
+        display:block;
+        margin-top: 20px;
+        margin-left: 400px;
+    }
+    
+    #toggle-menu:checked ~ .navbar-list {
+        display: flex;
+
+    }
+    .logo-cerritoboyz {
+        height: 10%;
+        width: 10%;
+    }
+    #hero {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #img-size{
+        width: 400px;
+        height: 300px;
+        margin-top: 30px;
+        margin-left: -100px;
+        position: static;
+    }
+    .line-separator{
+        position: relative;
+        margin-right: 30%;
+        left: 10%;
+    }
+    #beneficios {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    #contacto {
+        width: 50%;
+        margin-left: 5%;
+    }
+    .contact-tittle {
+        color: black;
+    }
+}
+@media (max-width: 1200px){
+    header{
+        width: 118%;
+        max-width: 118%;
+    }
+    .logo-cerritoboyz{
+        width: 10%;
+        height: 10%;
+    }
+    #img-size{
+        width: 500px;
+        height: 400px;
+    }
+    .text-info{
+        margin-left: 10%;
+    }
+
+    .line-separator{
+        position:relative;
+        left: 20%;
+    }
+
+    #beneficios{
+        margin-left: 20%;
+    }
+    #footer-pag{
+        font-size: 10px;
+        margin-left: 25%;
+    }
+}

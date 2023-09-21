@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CERRITOBOYZ</title>
     <link rel="stylesheet" href="cerritostyle.css">
+    <link rel="stylesheet" href="mediaquerys.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <header class="header">
         <nav class="navbar">
              <img src="./assets/logo-cerritoboyz.png" alt="LogoDeCerritoBoyz" class="logo-cerritoboyz">
+                <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" id="toggle-menu"/>
                 <ul class="navbar-list">
                     <li><a href="#" class="nav-link">Home</a></li>
                     <li><a href="#" class="nav-link">Descubre</a></li>
                     <li><a href="#" class="nav-link">Proyectos</a></li>
-                    <li><a href="#" class="nav-link">Contactanos</a></li>
+                    <li><a href="#" class="nav-link">Contáctanos</a></li>
                 </ul>   
         </nav>
     </header>
@@ -33,7 +37,7 @@
             </div>
         </div>
         <div class="hero-img">
-            <img src="./assets/skateboard-photo.jpg" alt="img-example">
+            <img src="./assets/skateboard-photo.jpg" alt="img-example" id="img-size">
         </div>
 
     </section>
@@ -47,5 +51,41 @@
             </p>          
         </div>
     </section>
+    <hr class="line-separator">
+    <section id="beneficios">
+        <h2>QUEREMOS LO MEJOR PARA VOS</h2>
+        <p class="beneficios-text">Para eso, les mostraremos los beneficios de elegir <span>CERRITOBOYZ</span> para tu vestir.</p>
+
+        <div class="cards">
+          <div class="card-benefit">
+             <img src="./assets/img-cards/estilos-ropa.jpg" class="img-card">
+             <h3 class="card-tittle">Variedad de Estilos y Tallas</h3>
+             <p class="benefit-info">Gama de estilos, tendencias y tallas para diferentes clientes.Lo que les brinda la oportunidad de expresarse y sentirse cómodos con lo que llevan puesto.</p>
+          </div>
+          <div class="card-benefit">
+            <img src="./assets/img-cards/calidad-durabilidad.jpg" class="img-card">
+            <h3 class="card-tittle">Calidad y Durabilidad</h3>
+            <p class="benefit-info">Disponemos prendas con materiales duraderos y una atención meticulosa a los detalles.Buscamos que sus compras no solo se vean bien, sino que también perduren con el tiempo.</p>
+          </div>
+          <div class="card-benefit">
+            <img src="./assets/img-cards/compras-personalizadas.jpg" class="img-card">
+            <h3 class="card-tittle">Compras Personalizadas</h3>
+            <p class="benefit-info">Los clientes pueden alternar su forma de pago y consultar según sus preferencias y necesidades evaluando el ajuste antes de comprar.</p>
+          </div>   
+        </div>
+    </section>
+    <section id="contacto">
+        <div class="contact-contain">
+            <h2 class="contact-tittle">Contáctanos</h2>
+            <ul class="contact-info">
+                <li><a class="ubi-home">En todos lados, Argentina</a></li>
+                <li><a href="https://wa.me/92804872928" class="contact-wsp">+54 9 2804872928</a></li>
+                <li><a href="nobliajoel@gmail.com" class="contact-mail">nobliajoel@gmail.com</a></li>
+            </ul>
+        </div>
+    </section>
+    <footer id="footer-pag">
+        <h5>© Copyright D • by CERRITOBOYZ. All Rights Reserved</h5>
+    </footer>
 </body>
 </html>
